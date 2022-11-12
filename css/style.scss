@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background: hsl(226, 43%, 10%);
+    padding: 10rem;
+  }
+
+  .wrapper {
+    height: 40rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 2rem;
+    .container1 {
+        grid-row: span 2;
+        background: hsl(235, 46%, 20%);
+        border-radius: 1rem;
+        .name {
+            height: 27rem;
+            background: hsl(246, 80%, 60%);
+            border-radius: 1rem;
+            color: white;
+            padding: 2rem;
+            
+            img {
+                width: 10rem;
+                padding-bottom: 3rem;
+            }
+            .mid {
+                line-height: 1.3;
+                h1 {
+                    font-size: 3rem;
+                }
+            }
+        }
+        .days {      
+            color: white;
+            padding: 3rem;
+            border-radius: 5%; 
+            line-height: 2.7; 
+            &:hover {
+                color: hsl(235, 45%, 61%);
+              }      
+        }
+    }
+    .container2 {
+        background:  hsl(15, 100%, 70%);
+        border-radius: 1rem;
+        color: white;
+        .work {
+           height: 3rem;
+           overflow: hidden;
+           text-align: right;
+        }
+        .cont {
+            background: hsl(235, 46%, 20%);
+            height: 18rem;
+            border-radius: 1rem;
+            padding: 2rem;
+            h1 {
+                font-size: 5rem;
+            }
+            p {
+                font-size: 1.5rem;
+            }
+            .boom {
+               display: grid;
+               grid-template-columns: repeat(2, 1fr);
+               padding-bottom: 3rem;
+               img {
+                justify-self: end;
+                width: 3rem;
+               }
+               p {
+                font-size: 2rem;
+               }
+            }
+        }
+    }
+    .container3 {
+        background: hsl(195, 74%, 62%);
+        border-radius: 1rem;
+        color: white;
+    
+        .work3 {
+          height: 3rem;
+          overflow: hidden;
+          text-align: right;
+        }
+        .cont3 {
+            background: hsl(235, 46%, 20%);
+            height: 18rem;
+            border-radius: 1rem;
+            padding: 2rem;
+            h1 {
+                font-size: 5rem;
+            }
+            p {
+                font-size: 1.5rem;
+            }
+            .boom3 {
+               display: grid;
+               grid-template-columns: repeat(2, 1fr);
+               padding-bottom: 3rem;
+               img {
+                justify-self: end;
+                width: 3rem;
+               }
+               p {
+                font-size: 2rem;
+               }
+            }
+        }
+    }
+    .container4 {
+        background: hsl(348, 100%, 68%);
+        border-radius: 1rem;
+        color: white;
+    
+        .work4 {
+          height: 3rem;
+          overflow: hidden;
+          text-align: right;
+        }
+        .cont4 {
+            background: hsl(235, 46%, 20%);
+            height: 18rem;
+            border-radius: 1rem;
+            padding: 2rem;
+            h1 {
+                font-size: 5rem;
+            }
+            p {
+                font-size: 1.5rem;
+            }
+            .boom4 {
+               display: grid;
+               grid-template-columns: repeat(2, 1fr);
+               padding-bottom: 3rem;
+               img {
+                justify-self: end;
+                width: 3rem;
+               }
+               p {
+                font-size: 2rem;
+               }
+            }
+
+        }
+    }
+    .container5 {
+        background: hsl(145, 58%, 55%);
+        border-radius: 1rem;
+        color: white;
+    
+        .work5 {
+          height: 3rem;
+          overflow: hidden;
+          text-align: right;
+        }
+        .cont5 {
+            background: hsl(235, 46%, 20%);
+            height: 18rem;
+            border-radius: 1rem;
+            padding: 2rem;
+            h1 {
+                font-size: 5rem;
+            }
+            p {
+                font-size: 1.5rem;
+            }
+            .boom5 {
+               display: grid;
+               grid-template-columns: repeat(2, 1fr);
+               padding-bottom: 3rem;
+               img {
+                justify-self: end;
+                width: 3rem;
+               }
+               p {
+                font-size: 2rem;
+               }
+            }
+        }
+    }
+    .container6 {
+        background: hsl(264, 64%, 52%);
+        border-radius: 1rem;
+        color: white;
+    
+        .work6 {
+          height: 3rem;
+          overflow: hidden;
+          text-align: right;
+        }
+        .cont6 {
+            background: hsl(235, 46%, 20%);
+            height: 18rem;
+            border-radius: 1rem;
+            padding: 2rem;
+            h1 {
+                font-size: 5rem;
+            }
+            p {
+                font-size: 1.5rem;
+            }
+            .boom6 {
+               display: grid;
+               grid-template-columns: repeat(2, 1fr);
+               padding-bottom: 3rem;
+               img {
+                justify-self: end;
+                width: 3rem;
+               }
+               p {
+                font-size: 2rem;
+               }
+            }
+        }
+    }
+    .container7 {
+        background: hsl(43, 84%, 65%);
+        border-radius: 1rem;
+        color: white;
+    
+        .work7 {
+          height: 3rem;
+          overflow: hidden;
+          text-align: right;
+        }
+        .cont7 {
+            background: hsl(235, 46%, 20%);
+            height: 18rem;
+            border-radius: 1rem;
+            padding: 2rem;
+            h1 {
+                font-size: 5rem;
+            }
+            p {
+                font-size: 1.5rem;
+            }
+            .boom7 {
+               display: grid;
+               grid-template-columns: repeat(2, 1fr);
+               padding-bottom: 3rem;
+               img {
+                justify-self: end;
+                width: 3rem;
+               }
+               p {
+                font-size: 2rem;
+               }
+            }
+        }
+        
+    }
+    
+  }
+
+  @media only screen and (max-width: 375px) {
+    body {
+        padding: 2rem;
+    }
+    .wrapper {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: none;
+
+    }
+  }
